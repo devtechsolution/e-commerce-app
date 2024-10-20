@@ -4,7 +4,7 @@ spring:
   application:
     name: order-service
   datasource:
-    url: jdbc:mysql://localhost:3306/order_service
+    url: jdbc:mysql://localhost:3316/order_service
     username: root
     password: mysql
   jpa:
@@ -14,5 +14,8 @@ springdoc:
   api-docs:
     path: /api-docs
   swagger-ui: /swagger-ui.html
+
+inventory:
+  url : http://localhost:8082
 
 
